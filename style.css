@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul{
+    position: relative;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 1.2rem;
+}
+
+nav ul li{
+    list-style: none;
+    padding:0 0 0 15px;
+    font-size: 13px;
+    font-family: sans-serif, arial;
+
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.profile-img{
+    clip-path: circle(50% at 50% 50%);
+    
+}
+
+.google-apps-logo{
+    height:24px;
+    width: 24px;
+    opacity: 50%; 
+}
