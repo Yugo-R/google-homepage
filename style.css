@@ -39,3 +39,25 @@ a:hover{
     width: 24px;
     opacity: 50%; 
 }
+
+.g-img{
+    display: block;
+    margin:auto;
+    margin-top:3.5rem;
+}
+
+.search-box{
+    display: flex;
+    justify-content: center;
+    margin-top:3rem;
+}
+
+.search-box input{
+    padding:1rem;
+    height:2.5rem;
+    width:30rem;
+    border:1px solid rgb(196, 196, 196);
+    border-radius: 2rem;
+    outline: none;
+    
+}
