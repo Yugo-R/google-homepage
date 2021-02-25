@@ -20,7 +20,7 @@ nav ul li{
 
 }
 
-a{
+nav ul li a{
     color:black;
     text-decoration: none;
 }
@@ -59,5 +59,96 @@ a:hover{
     border:1px solid rgb(196, 196, 196);
     border-radius: 2rem;
     outline: none;
+}
+
+
+.click-me{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.click-me button{
+    padding: 0.5rem 0.5rem ;
+    margin-left:0.75rem;
+    border-radius: 3px;
+    font-size: 13px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+}
+
+#button1:hover{
+    border:solid 1px grey;
     
+}
+
+#button2:hover{
+    border:solid 1px grey;
+}
+
+#offered{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    font-size: 13px;
+    font-family: sans-serif, arial;
+    
+}
+
+#offered a{
+    color: rgb(1, 1, 199);
+}
+
+.japan{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    background-color:rgb(235, 235, 235);
+    border-bottom:solid 1px grey;
+    position: fixed;
+    bottom:3rem;
+    height: 3rem;
+    width:100%;
+    color: #70757A;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    background-color:rgb(235, 235, 235);
+    position:fixed;
+    width:100%;
+    left: 0;
+    bottom: 0;
+    height:3rem;
+}
+
+.footer ul{
+    display: flex;
+    padding-left:1rem;
+    
+}
+
+.footer ul li{
+    padding-right:2rem;
+    list-style: none;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color:#70757A;
+}
+
+.footer ul li a:hover{
+    text-decoration: underline;
+}
+.first-group{
+    flex: 1;
+}
+
+.second-group{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
 }
